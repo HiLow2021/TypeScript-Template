@@ -1,0 +1,4 @@
+{
+    "./{src,app,apps,lib,libs,tool,tools,test,tests}/**/*.{ts,tsx}": "npx eslint",
+    "./**/*.{js,jsx,ts,tsx,css,scss}": "npx prettier --write"
+}
