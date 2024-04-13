@@ -32,7 +32,6 @@
 2. .eslintrc に ESLint のルールを設定できる。このリポジトリの .eslintrc は以下の通り。
 
 ```json
-// .eslintrc
 {
     "env": {
         "es2021": true,
@@ -69,7 +68,6 @@
 3. .prettierrc に prettier の整形ルールを設定できる。このリポジトリの .prettierrc は以下の通り。
 
 ```json
-// .prettierrc
 {
     "printWidth": 140,
     "tabWidth": 4,
@@ -108,7 +106,6 @@ npm run lint
 2. .lintstagedrc を作成して lint-staged 対象ファイルとスクリプトを記述する。このリポジトリの .lintstagedrc は以下の通り。
 
 ```json
-// .lintstagedrc
 {
     "./{src,app,apps,lib,libs,tool,tools,test,tests}/**/*.{ts,tsx}": "npx eslint",
     "./**/*.{js,jsx,ts,tsx,css,scss}": "npx prettier --write"
